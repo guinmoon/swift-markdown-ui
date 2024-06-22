@@ -18,7 +18,8 @@ let package = Package(
     )
   ],
   dependencies: [
-    .package(url: "https://github.com/guinmoon/NetworkImage", from: "6.0.0"),
+    .package(path:"NetworkImage")
+//    .package(url: "https://github.com/guinmoon/NetworkImage", from: "6.0.0"),
   ],
   targets: [
     .target(name: "cmark-gfm"),
